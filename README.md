@@ -17,7 +17,7 @@ Run_Analysis.R performs the following steps:
 
 1. Check to see if the current directory contains a zipped or unzipped version of the raw data set (found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
     * If there is an already unzipped version of the raw data, it proceeds to Step 2
-    * If there is a zipped version of the raw data in the current directory, then it will unzip the raw data file before proceding to @tep 2
+    * If there is a zipped version of the raw data in the current directory, then it will unzip the raw data file before proceding to Step 2
     * If there is no raw data file (zipped or unzipped) in the current directory, then it will download and unzip it before proceding to Step 2.
 2. Loads all the relevant raw data sets into R
 3. Extracts only the measurements on the mean and standard deviation for each measurement
